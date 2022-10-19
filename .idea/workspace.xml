@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d95e52c-3ec2-42ad-aaf1-9469a1c40898" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Advertisement/static/Advertisement/main2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/migrations/0002_auto_20200626_1723.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/migrations/0003_receipt_note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/order_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/templates/CustomerManagement/status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomerManagement/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OfficialPage/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/templates/base/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/templates/base/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/templates/base/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/CoatOfArms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/OforikuromAssembly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/OforikuromAssembly2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Onpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Onpay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/IMG_20190705_095614_wOy5FTE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/coatof_arms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/coatof_arms_VvPxSuB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/cofee_nutt_i1_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/cofee_nutt_i1_b_0NfPmWR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/profile_pics/cofee_nutt_i1_b_UsdAu2c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/templates/tollspayment/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/templates/tollspayment/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/templates/tollspayment/success2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/templates/tollspayment/success3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/templates/tollspayment/template2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tollspayment/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advertisement/templates/Advertisement/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Advertisement/templates/Advertisement/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/District_Assembly_Revenue_App/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/District_Assembly_Revenue_App/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/District_Assembly_Revenue_App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/District_Assembly_Revenue_App/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficialPage/templates/OfficialPage/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/OfficialPage/templates/OfficialPage/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficialPage/templates/OfficialPage/snippet_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/OfficialPage/templates/OfficialPage/snippet_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficialPage/templates/OfficialPage/snippet_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/OfficialPage/templates/OfficialPage/snippet_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficialPage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OfficialPage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/intropage.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/intropage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/ratesprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/ratesprofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/visacardpay.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/visacardpay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="IkeAndFriends &lt;theglorio@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bnTVAjDLfckuTSCnXupPYA9WeU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Base_from_Corey" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d95e52c-3ec2-42ad-aaf1-9469a1c40898" name="Default Changelist" comment="" />
+      <created>1589266878396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589266878396</updated>
+    </task>
+    <task id="LOCAL-00001" summary="blahblah">
+      <created>1591082324382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591082324382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="blahblah" />
+    <option name="LAST_COMMIT_MESSAGE" value="blahblah" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591180906944">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="453" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1591180906944" />
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1591082353135">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1591082353135" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1590399493463">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1590399493463" />
+    <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1593347153092">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="378" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1593347153092" />
+  </component>
+</project>
