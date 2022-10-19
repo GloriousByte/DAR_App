@@ -1,0 +1,38 @@
+{% extends "Advertisement/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+     <div class="content-section">
+      <div class="media">
+        <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
+        <div class="media-body">
+          <h2 class="account-heading">{{ user.profile.house_number }}</h2>
+            <h6 >{{ user.profile.street }}</h6>
+        </div>
+       </div>
+      </div>
+
+      <div class="media-body" style="color:#350000">
+          <a class="mr-2" >Statement for {{user.profile.Month}}</a>
+      </div>
+      <div class="content-section">
+        <div class="media-body">
+            <h4 style = " color : #470000 " : >Occupant:</h4>
+            <h6> {{ user.profile.Name }}</h6><br>
+            <div class="article-metadata" style="color:#350000">
+              <small class="text-muted"></small>
+            </div>
+
+            <h4 style = " color : #370000 " : >Rate Multiplier:</h4>
+            <h6> {{ user.profile.Multiplier }}</h6><br>
+            <div class="article-metadata" style="color:#350000">
+              <small class="text-muted"></small>
+            </div>
+            <h4 style = " color : #350000 " : >Amount:</h4><h6> {{ user.profile.amount_owed }} </h6>
+        </div>
+          <br>
+          <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Make Payment</button>
+               <h6><a class="article-title"  href="{% url 'index' %}" style="color:#ECECEC" >DARS</a></h6>
+          </div>
+     </div>
+  {% endblock content%}

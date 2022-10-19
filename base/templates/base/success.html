@@ -1,0 +1,12 @@
+{% extends 'base/template.html' %}
+{% load static %}
+{% block content %}
+	<div id="box">
+		<img src="/media/Onpay.png" style="position:fixed;right:50px;left:710px;bottom:50px;">
+		<h4>Thank you for you using DARS</h4>
+		<p>Please feel free to inform us about any inconveniences</p>
+		<hr>
+		<a class="myButton" href="{% url 'receipttemp' %}">View temporary receipt</a>
+	</div>
+
+{% endblock content %}

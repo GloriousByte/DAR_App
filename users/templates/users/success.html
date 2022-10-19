@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'Advertisement/main.css' %}">
+
+    {% if title %}
+        <title>Django Blog - {{ title }}</title>
+    {% else %}
+        <title>Django Blog</title>
+    {% endif %}
+</head>
+<body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+          <a class="navbar-brand mr-4" href="{% url 'Advertisement-home' %}">Oforikurom Dars</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="{% url 'test' %}">Home</a>
+              <a class="nav-item nav-link" href="{% url 'Advertisement-home' %}">Announcements</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              {% if user.is_authenticated %}
+                <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+              {% else %}
+                <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+	<div id="box">
+
+		<h4>Thank you for paying with DARS</h4>
+		<p>We hope that the application was convenient. Please do contact us with any problems you had, since in the near future, all payments would have to be made online. Also,we advise that you take a picture of your temporary receipt for future purposes. </p>
+		<hr>
+		<a class="myButton" href="{% url 'ratesprofile' %}">&#x2190;Go to announcements</a>
+	</div>
+       </br>
+      <h6>Reciept for {{user.profile.Name}} <h6></h6></h6></h6></h6>
+      <div class="content-section">
+      <div class="media">
+        <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
+        <div class="media-body">
+             <div class="media-body">
+            <h4 style = " color : #470000 " : >Name:</h4><h6> {{ user.profile.Name }}</h6><br>
+            <div class="article-metadata" style="color:#350000">
+              <small class="text-muted"></small>
+            </div>
+                  <div class="media-body" style="color:#350000">
+          <a class="mr-2" >{{user.profile.house_number}}</a>,
+           <a class="mr-2" >{{user.profile.street}}</a>
+
+      </div>
+
+
+        </div>
+       </div>
+      </div>
+
+      <div class="media-body" style="color:#350000">
+          <a class="mr-2" >Statement for {{user.profile.Month}}</a>
+      </div>
+      <div class="content-section">
+
+
+            <h4 style = " color : #370000 " : >Rate Multiplier:</h4>
+            <h6> {{ user.profile.Multiplier }}</h6><br>
+            <div class="article-metadata" style="color:#350000">
+              <small class="text-muted"></small>
+            </div>
+            <h4 style = " color : #350000 " : >Amount owed:</h4><h6> {{ user.profile.amount_owed }} </h6>
+             <div class="article-metadata" style="color:#350000">
+              <small class="text-muted"></small>
+            </div>
+           <h4 style = " color : #350000 " : >Amount paid:</h4><h6> {{ user.profile.amount_owed }} only </h6>
+        </div>
+             <button class="btn btn-outline-info" type="submit">download receipt</button>
+          </div>
+
+        </div>
+          <br> <br> <br>
+      </div>
+    </main>
+</body>
